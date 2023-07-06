@@ -1,5 +1,9 @@
 <template>
-  <div>
-    <h1> test </h1>
-  </div>
+  <Head>
+    <Title>Guitarworks</Title>
+    <Meta name="guitarworks" content="Guitarworks" />
+  </Head>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
