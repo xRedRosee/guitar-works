@@ -36,6 +36,11 @@ export default {
     setup() {
         const route = useRoute()
     },
+    data() {
+        return {
+            hamburgerOpen: false,
+        }
+    },
     methods: {
         hamburgerMenu() {
             const navBar = document.querySelector('.navbar');
@@ -62,6 +67,82 @@ export default {
 }
 </script>
 <style>
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: auto;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.nav-item {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-text {
+    margin: 0;
+    padding: 0;
+    color: var(--black);
+    text-decoration: none;
+    font-family: var(--normalfont);
+    font-weight: var(--normalfontnormal);
+    font-size: 24px;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-text:after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--black);
+    transition: 300ms;
+}
+
+.nav-text:hover:after {
+    width: 100%;
+}
+
+.nav-text:not(:hover):after {
+    right: 0;
+    left: auto;
+}
+
+.hamburgermenu {
+    background-color: none;
+    outline: none;
+    border: none;
+    background: none;
+    display: none;
+}
+
+.line {
+    width: 30px;
+    height: 2px;
+    background-color: var(--black);
+    margin: 6px auto;
+    display: block;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
 /* -------------------------------------------- media queries */
 @media screen and (max-width: 768px) {
     .navbar {
@@ -71,7 +152,7 @@ export default {
         align-items: flex-end;
         height: 100%;
         width: 100%;
-        background-color: var(--black);
+        background-color: var(--white);
         margin: 0;
         padding: 0;
         height: 50px;
@@ -96,7 +177,7 @@ export default {
         top: 40px;
         z-index: 99;
         position: fixed;
-        background-color: var(--black);
+        background-color: var(--white);
     }
 
     .nav-list.active {
