@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar">
         <NuxtLink to="/" class="nav-name">
-            <img src="" alt="guitarworks logo" class="logo">
+            <img src="gw-logo.png" alt="guitarworks logo" class="logo">
         </NuxtLink>
         <ul class="nav-list">
             <li class="nav-item">
@@ -71,8 +71,9 @@ export default {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     height: auto;
+    flex-direction: row;
 }
 
 .nav-list {
@@ -86,6 +87,10 @@ export default {
     margin-right: 30px;
     margin-top: 10px;
     width: 100%;
+}
+
+.logo {
+    height: 70px
 }
 
 .nav-item {
@@ -147,9 +152,9 @@ export default {
 @media screen and (max-width: 768px) {
     .navbar {
         display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: flex-end;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
         height: 100%;
         width: 100%;
         background-color: var(--white);
@@ -174,7 +179,7 @@ export default {
         justify-content: space-evenly;
         right: 0;
         width: 100%;
-        top: 40px;
+        top: 52px;
         z-index: 99;
         position: fixed;
         background-color: var(--white);
