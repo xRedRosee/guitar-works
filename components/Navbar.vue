@@ -149,6 +149,18 @@ export default {
 }
 
 /* -------------------------------------------- media queries */
+@media screen and (max-width: 990px) {
+    .nav-text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .nav-text {
+        font-size: 16px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .navbar {
         display: flex;
