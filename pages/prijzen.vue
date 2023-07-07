@@ -73,7 +73,7 @@ import Pricebar from '/././components/Pricebar.vue';
 .price-list {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
 }
 
 /* -------------------------------------------- media queries */

@@ -25,6 +25,8 @@ export default {
     align-items: center;
     padding-inline: 19px;
     gap: 20px;
+    -webkit-box-shadow: 0px 5px 14px -4px rgba(0, 0, 0, 0.27);
+    box-shadow: 0px 5px 14px -4px rgba(0, 0, 0, 0.27);
 }
 
 .price-item {
