@@ -8,9 +8,20 @@
                 <a href="mailto:guitarworks@live.nl" class="email"> guitarworks@live.nl</a> of per telefoon:
                 <a href="tel:+31622209469" class="phone">06-22209469</a>
             </p>
-            <div>
+            <div class="price-list">
                 <Pricebar priceItem="Snaren vervangen inclusief reinigen en oliën van de toets: (exclusief snaren)"
-                    priceNumber="€ 15,-"></Pricebar>
+                    priceNumber="€15,-"></Pricebar>
+                <Pricebar priceItem="Lijmen gebroken hals" priceNumber="vanaf €30,-"></Pricebar>
+                <Pricebar priceItem="Akoestische-, elektrische- of basgitaar (exclusief snaren)" priceNumber="€60,-">
+                </Pricebar>
+                <Pricebar priceItem="Vlakken en afstellen akoestische-, elektrische- of basgitaar (exclusief snaren)"
+                    priceNumber="€90,-"></Pricebar>
+                <Pricebar priceItem="Herfretten van gitaar met ongelakte toets (meestal Palissander)
+zonder binding inclusief afstellen (exclusief snaren)" priceNumber="€200,-"></Pricebar>
+                <Pricebar priceItem="Herfretten van gitaar met gelakte toets (meestal Esdoorn,
+Palissander- of Ebben toets) met binding inclusief afstellen (exclusief snaren)
+" priceNumber="€250,-">
+                </Pricebar>
             </div>
         </article>
     </section>
@@ -57,6 +68,12 @@ import Pricebar from '/././components/Pricebar.vue';
 
 .phone:visited {
     color: black;
+}
+
+.price-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 /* -------------------------------------------- media queries */
