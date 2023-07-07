@@ -1,5 +1,30 @@
 <template>
-  <div>
-    <h1> test </h1>
-  </div>
+  <Head>
+    <Title>Guitarworks</Title>
+    <Meta name="guitarworks" content="Guitarworks" />
+  </Head>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
+<style>
+@import url("https://use.typekit.net/psc6wfy.css");
+
+:root {
+  --black: black;
+  --white: white;
+  --red: #C00808;
+  --normalfont: "canada-type-gibson", sans-serif;
+  --normalfontnormal: 400;
+  --normalfontmedium: 500;
+  --normalfontbold: 700;
+  --headingfont: "lorimer-no-2", sans-serif;
+  --headingweight: 700;
+  --headingstyle: italic;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+</style>
