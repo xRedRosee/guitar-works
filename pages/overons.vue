@@ -1,7 +1,7 @@
 <template>
     <Navbar></Navbar>
     <section class="top-header">
-        <h1 class="header-h1"> Over ons </h1>
+        <Pagetitle pageTitle="Over ons"></Pagetitle>
         <div class="header-info">
             <div class="text-side">
                 <article class="header-intro-text">
@@ -28,27 +28,20 @@
             Series Gitaar’’ of pedalboard: Guitarworks is voor dit alles het juiste adres.</p>
     </article>
 </template>
-<script scoped>
+<script>
 import Navbar from '/././components/Navbar.vue';
+import Pagetitle from '/././components/Pagetitle.vue';
 export default {
-
+    components: { Pagetitle }
 }
 </script>
-<style>
+<style scoped>
 .top-header {
     background-color: var(--lightgrey);
     padding-top: 20px;
     padding-bottom: 60px;
-}
-
-.header-h1 {
-    font-size: 50px;
-    color: var(--black);
-    font-family: var(--headingfont);
-    font-style: italic;
-    font-weight: var(--headingfontweight);
-    margin: 0;
-    margin-left: 40px;
+    -webkit-box-shadow: 0px 14px 22px -9px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 14px 22px -9px rgba(0, 0, 0, 0.1);
 }
 
 .header-info {
