@@ -40,6 +40,8 @@ export default {
     background-color: var(--lightgrey);
     padding-top: 20px;
     padding-bottom: 60px;
+    -webkit-box-shadow: 0px 14px 22px -9px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 14px 22px -9px rgba(0, 0, 0, 0.1);
 }
 
 .header-info {

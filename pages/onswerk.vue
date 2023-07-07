@@ -22,19 +22,64 @@
             </div>
         </div>
     </section>
+    <section>
+        <Pagetitle pageTitle="Ons werk in beeld"></Pagetitle>
+        <div class="glide slide-div home">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide show-slide">
+                        <img alt="werk in beeld foto" class="show-img"
+                            src="../assets/Onswerk/Afstellen en intoneren van een basgitaar....JPG">
+                        <p class="show-text">Afstellen en intoneren van een basgitaar </p>
+                    </li>
+                    <li class="glide__slide show-slide">
+                        <img alt="werk in beeld foto" class="show-img"
+                            src="../assets/Onswerk/Brug lijmen van western gitaar... (m.b.v. onze specialisten...).JPG">
+                        <p class="show-text">Brug lijmen van western gitaar (m.b.v. onze specialisten) </p>
+                    </li>
+                    <li class="glide__slide show-slide">
+                        <img alt="werk in beeld foto" class="show-img"
+                            src="../assets/Onswerk/Custom schakelingen in de electronica aanbrengen....JPG">
+                        <p class="show-text">Custom schakelingen in de electronica aanbrengen </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="glide__controls" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="|<">prev</button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir="|>">next</button>
+            </div>
+        </div>
+    </section>
 </template>
 <script>
+import Glide from '@glidejs/glide'
 import Navbar from '/././components/Navbar.vue';
 import Pagetitle from '/././components/Pagetitle.vue';
 export default {
-
+    mounted() {
+        new Glide('.glide', {
+            type: 'carousel',
+            animationDuration: 2000,
+            // go to next slide after 5 seconds
+            autoplay: 4500,
+            // show 1 slide, starting with first slide
+            focusAt: '1',
+            startAt: 1,
+            perView: 1,
+            gap: 0,
+        }).mount()
+    },
 }
 </script>
 <style scoped>
+@import '@glidejs/glide/dist/css/glide.core.min.css';
+
 .top-header {
     background-color: var(--lightgrey);
     padding-top: 20px;
     padding-bottom: 60px;
+    -webkit-box-shadow: 0px 14px 22px -9px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 14px 22px -9px rgba(0, 0, 0, 0.1);
 }
 
 .header-info {
