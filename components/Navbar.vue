@@ -166,7 +166,7 @@ export default {
         background-color: var(--white);
         margin: 0;
         padding: 0;
-        height: 50px;
+        height: 60px;
         z-index: 99;
     }
 
@@ -185,7 +185,7 @@ export default {
         justify-content: space-evenly;
         right: 0;
         width: 100%;
-        top: 52px;
+        top: 57px;
         z-index: 99;
         position: fixed;
         background-color: var(--white);

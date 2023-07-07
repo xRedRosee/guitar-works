@@ -1,9 +1,10 @@
 <template>
     <Navbar></Navbar>
     <section class="guitar-banner">
-        <img src="../assets/banner.JPG" alt="guitar banner" class="banner-img">
-        <span class="banner-overlay"></span>
-        <h1 class="banner-text"> Guitarworks <br> Guitar Repair & Customizing Panningen</h1>
+        <div class="guitar-img">
+            <img src="../assets/banner.JPG" alt="guitar banner" class="banner-img">
+            <h1 class="banner-text"> Guitarworks <br> Guitar Repair & Customizing Panningen</h1>
+        </div>
     </section>
 </template>
 <script>
@@ -16,29 +17,23 @@ export default {
 .guitar-banner {
     height: 100vh;
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    overflow: hidden;
+}
+
+.guitar-img {
     position: relative;
     overflow: hidden;
-    margin-top: -10px;
+    height: 115%;
 }
 
 .banner-img {
-    width: 100%;
-}
-
-.banner-overlay {
-    position: absolute;
-    top: 0;
-    -webkit-box-shadow: inset 0px -22px 50px -5px rgba(0, 0, 0, 0.43);
-    box-shadow: inset 0px -22px 50px -5px rgba(0, 0, 0, 0.43);
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
 }
 
 .banner-text {
     position: absolute;
-    top: 50%;
+    top: 45%;
     border-left: 8px solid var(--red);
     padding-left: 20px;
     font-size: 70px;
@@ -48,15 +43,46 @@ export default {
     font-weight: var(--headingfontweight);
     margin-left: 50px;
     text-shadow: 2px 2px 8px var(--black);
+    margin-block: 0;
 }
 
 /* -------------------------------------------- media queries */
-@media screen and (max-width: 896px) {}
+@media screen and (max-width: 1010px) {
+    .guitar-img {
+        height: 100%;
+    }
+
+    .banner-img {
+        height: 100%;
+        width: auto;
+        margin-left: -168px;
+    }
+
+    .banner-text {
+        position: absolute;
+        top: 50%;
+        font-size: 50px;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .banner-img {
         height: 100%;
-        margin-left: -689px;
+        margin-left: -729px;
+    }
+
+    .banner-text {
+        position: absolute;
+        top: 70%;
+        font-size: 30px;
+        margin-left: 21px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .banner-img {
+        height: 100%;
+        margin-left: -571px;
     }
 }
 </style>
