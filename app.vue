@@ -14,6 +14,7 @@
   --black: black;
   --white: white;
   --red: #C00808;
+  --lightgrey: #F1F1F1;
   --normalfont: "canada-type-gibson", sans-serif;
   --normalfontnormal: 400;
   --normalfontmedium: 500;
