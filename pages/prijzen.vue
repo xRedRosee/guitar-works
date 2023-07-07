@@ -1,0 +1,74 @@
+<template>
+    <Navbar></Navbar>
+    <section class="top-header">
+        <Pagetitle pageTitle="Prijzen"></Pagetitle>
+        <article class="header-intro-text">
+            <p class="header-text"> Hieronder vindt u een aantal prijzen voor veel voorkomende werkzaamheden;
+                voor een prijsopgave voor andere werkzaamheden kunt u vrijblijvend contact met ons opnemen via email
+                <a href="mailto:guitarworks@live.nl" class="email"> guitarworks@live.nl</a> of per telefoon:
+                <a href="tel:+31622209469" class="phone">06-22209469</a>
+            </p>
+        </article>
+    </section>
+</template>
+<script>
+import Navbar from '/././components/Navbar.vue';
+import Pagetitle from '/././components/Pagetitle.vue';
+export default {
+
+}
+</script>
+<style scoped>
+.top-header {
+    background-color: var(--lightgrey);
+    padding-top: 20px;
+    padding-bottom: 60px;
+    -webkit-box-shadow: 0px 14px 22px -9px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 14px 22px -9px rgba(0, 0, 0, 0.1);
+}
+
+.header-intro-text {
+    border-left: 5px solid var(--red);
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.header-text {
+    font-family: var(--normalfont);
+    font-weight: var(--normalfontnormal);
+    font-size: 20px;
+    margin-block: 30px;
+    width: 60%;
+}
+
+.email {
+    color: black;
+}
+
+.email:visited {
+    color: black;
+}
+
+.phone {
+    color: black;
+}
+
+.phone:visited {
+    color: black;
+}
+
+/* -------------------------------------------- media queries */
+@media screen and (max-width: 1080px) {
+    .header-text {
+        font-size: 18px;
+        margin-block: 22px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .header-text {
+        font-size: 18px;
+        margin-block: 22px;
+    }
+}
+</style>
