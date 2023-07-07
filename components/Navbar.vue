@@ -105,7 +105,7 @@ export default {
     text-decoration: none;
     font-family: var(--normalfont);
     font-weight: var(--normalfontnormal);
-    font-size: 24px;
+    font-size: 20px;
     position: relative;
     cursor: pointer;
 }
@@ -149,12 +149,6 @@ export default {
 }
 
 /* -------------------------------------------- media queries */
-@media screen and (max-width: 990px) {
-    .nav-text {
-        font-size: 20px;
-    }
-}
-
 @media screen and (max-width: 896px) {
     .nav-text {
         font-size: 16px;
@@ -205,7 +199,7 @@ export default {
 
     .nav-text {
         margin-right: 16px;
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .hamburgermenu {
