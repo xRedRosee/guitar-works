@@ -22,9 +22,9 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="beeld-section">
         <Pagetitle pageTitle="Ons werk in beeld"></Pagetitle>
-        <div class="glide slide-div home">
+        <div class="glide slide-div beeld-slides">
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
                     <li class="glide__slide show-slide">
@@ -44,9 +44,9 @@
                     </li>
                 </ul>
             </div>
-            <div class="glide__controls" data-glide-el="controls">
-                <button class="glide__arrow glide__arrow--left" data-glide-dir="|<">prev</button>
-                <button class="glide__arrow glide__arrow--right" data-glide-dir="|>">next</button>
+            <div class="glide__controls buttons" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left button-left" data-glide-dir="|<">&#8592;</button>
+                <button class="glide__arrow glide__arrow--right button-right" data-glide-dir="|>">&#8594;</button>
             </div>
         </div>
     </section>
@@ -60,8 +60,8 @@ export default {
         new Glide('.glide', {
             type: 'carousel',
             animationDuration: 2000,
-            // go to next slide after 5 seconds
-            autoplay: 4500,
+            // go to next slide after 7 seconds
+            autoplay: 7000,
             // show 1 slide, starting with first slide
             focusAt: '1',
             startAt: 1,
@@ -116,6 +116,70 @@ export default {
 
 .header-img {
     width: 65%;
+}
+
+.beeld-section {
+    margin-top: 20px;
+}
+
+.beeld-slides {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.show-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.show-img {
+    height: 350px;
+}
+
+.show-text {
+    font-family: var(--normalfont);
+    font-weight: var(--normalfontnormal);
+    font-size: 20px;
+    margin-block: 30px;
+}
+
+.buttons {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.button-left {
+    margin-left: 90px;
+    font-size: 30px;
+    background: none;
+    color: var(--red);
+    outline: none;
+    border: solid 2px var(--red);
+    border-radius: 50%;
+    padding: 0;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.button-right {
+    margin-right: 90px;
+    font-size: 30px;
+    background: none;
+    color: var(--red);
+    outline: none;
+    border: solid 2px var(--red);
+    border-radius: 50%;
+    padding: 0;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
 }
 
 
