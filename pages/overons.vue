@@ -101,4 +101,63 @@ export default {
     width: 80%;
     text-align: center;
 }
+
+/* -------------------------------------------- media queries */
+@media screen and (max-width: 1080px) {
+    .header-img {
+        width: 80%;
+    }
+
+    .header-intro-text {
+        width: 90%;
+    }
+
+    .header-text {
+        font-size: 18px;
+        margin-block: 22px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .header-h1 {
+        font-size: 40px;
+    }
+
+    .header-info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .text-side {
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .header-intro-text {
+        width: 100%;
+        margin-left: 0;
+        border-left: 4px solid var(--red);
+    }
+
+    .img-side {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-text {
+        font-size: 18px;
+        margin-block: 22px;
+    }
+
+    .bottom-text {
+        font-size: 20px;
+        width: 95%;
+    }
+}
 </style>
