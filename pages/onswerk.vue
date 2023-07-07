@@ -28,7 +28,7 @@
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
                     <li class="glide__slide show-slide">
-                        <img alt="werk in beeld foto" class="show-img"
+                        <img alt="werk in beeld foto" class="show-img alt-img"
                             src="../assets/Onswerk/Afstellen en intoneren van een basgitaar....JPG">
                         <p class="show-text">Afstellen en intoneren van een basgitaar </p>
                     </li>
@@ -41,6 +41,60 @@
                         <img alt="werk in beeld foto" class="show-img"
                             src="../assets/Onswerk/Custom schakelingen in de electronica aanbrengen....JPG">
                         <p class="show-text">Custom schakelingen in de electronica aanbrengen </p>
+                    </li>
+                    <li class="glide__slide show-slide">
+                        <img alt="werk in beeld foto" class="show-img"
+                            src="../assets/Onswerk/Afstellen en intoneren met nieuwe snaren van een electrische gitaar....jpg">
+                        <p class="show-text">Afstellen en intoneren met nieuwe snaren van een electrische gitaar </p>
+                    </li>
+                    <li class="glide__slide show-slide">
+                        <img alt="werk in beeld foto" class="show-img alt-img"
+                            src="../assets/Onswerk/Fretten vlakken en profileren van een klassieke gitaar....JPG">
+                        <p class="show-text">Fretten vlakken en profileren van een klassieke gitaar </p>
+                    </li>
+                    <li class="glide__slide show-slide">
+                        <img alt="werk in beeld foto" class="show-img alt-img"
+                            src="../assets/Onswerk/Herfretten van een hals....jpeg">
+                        <p class="show-text">Herfretten van een hals </p>
+                    </li>
+                    <li class="glide__slide show-slide">
+                        <img alt="werk in beeld foto" class="show-img"
+                            src="../assets/Onswerk/Het aanbrengen van shielding voor minder ruis en brom in de electronica....JPG">
+                        <p class="show-text">Het aanbrengen van shielding voor minder ruis en brom in de electronica</p>
+                    </li>
+                    <li class="glide__slide show-slide">
+                        <img alt="werk in beeld foto" class="show-img"
+                            src="../assets/Onswerk/Lijmen van een gebroken headstock van een klassieke gitaar....JPG">
+                        <p class="show-text">Lijmen van een gebroken headstock van een klassieke gitaar</p>
+                    </li>
+                    <li class="glide__slide show-slide">
+                        <img alt="werk in beeld foto" class="show-img"
+                            src="../assets/Onswerk/Lijmen van een losse brug bij klassieke gitaar....JPG">
+                        <p class="show-text">Lijmen van een losse brug bij klassieke gitaar</p>
+                    </li>
+                    <li class="glide__slide show-slide">
+                        <img alt="werk in beeld foto" class="show-img"
+                            src="../assets/Onswerk/Monteren van een preamp systeem in een western gitaar....jpeg">
+                        <p class="show-text">Monteren van een preamp systeem in een western gitaar</p>
+                    </li>
+                    <li class="glide__slide show-slide">
+                        <img alt="werk in beeld foto" class="show-img"
+                            src="../assets/Onswerk/Rewiring van de electronica met nieuwe potmeters....jpeg">
+                        <p class="show-text">Rewiring van de electronica met nieuwe potmeters</p>
+                    </li>
+                    <li class="glide__slide show-slide">
+                        <img alt="werk in beeld foto" class="show-img"
+                            src="../assets/Onswerk/Versleten potmeters vervangen....jpeg">
+                        <p class="show-text">Versleten potmeters vervangen</p>
+                    </li>
+                    <li class="glide__slide show-slide">
+                        <img alt="werk in beeld foto" class="show-img" src="../assets/Onswerk/Vervangen van pickups....JPG">
+                        <p class="show-text">Vervangen van pickups</p>
+                    </li>
+                    <li class="glide__slide show-slide">
+                        <img alt="werk in beeld foto" class="show-img"
+                            src="../assets/Onswerk/Vlakken en profileren van zgn ''Deadspots'' in het fretwerk....JPG">
+                        <p class="show-text">Vlakken en profileren van zgn ''Deadspots'' in het fretwerk</p>
                     </li>
                 </ul>
             </div>
@@ -197,6 +251,19 @@ export default {
         font-size: 18px;
         margin-block: 22px;
     }
+
+    .show-img {
+        height: 300px;
+    }
+
+    .buttons {
+        bottom: 0%;
+        top: auto;
+    }
+
+    .show-slide {
+        padding-bottom: 34px;
+    }
 }
 
 @media screen and (max-width: 680px) {
@@ -231,6 +298,77 @@ export default {
     .header-text {
         font-size: 18px;
         margin-block: 22px;
+    }
+
+    .button-left {
+        margin-left: 30px;
+    }
+
+    .button-right {
+        margin-right: 30px;
+    }
+
+    .show-img {
+        height: 229px;
+    }
+
+    .alt-img {
+        height: 135px;
+    }
+
+    .show-text {
+        text-align: center;
+    }
+
+    .show-slide {
+        padding-bottom: 30px;
+    }
+
+    .glide__slides {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .show-img {
+        height: 183px;
+    }
+
+    .show-text {
+        font-size: 18px;
+    }
+
+    .alt-img {
+        height: 135px;
+    }
+
+    .button-left {
+        margin-left: 90px;
+        font-size: 20px;
+        background: none;
+        color: var(--red);
+        outline: none;
+        border: solid 2px var(--red);
+        border-radius: 50%;
+        padding: 0;
+        height: 40px;
+        width: 40px;
+        cursor: pointer;
+    }
+
+    .button-right {
+        margin-right: 90px;
+        font-size: 20px;
+        background: none;
+        color: var(--red);
+        outline: none;
+        border: solid 2px var(--red);
+        border-radius: 50%;
+        padding: 0;
+        height: 40px;
+        width: 40px;
+        cursor: pointer;
     }
 }
 </style>
