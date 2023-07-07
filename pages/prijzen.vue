@@ -8,15 +8,17 @@
                 <a href="mailto:guitarworks@live.nl" class="email"> guitarworks@live.nl</a> of per telefoon:
                 <a href="tel:+31622209469" class="phone">06-22209469</a>
             </p>
+            <div>
+                <Pricebar priceItem="Snaren vervangen inclusief reinigen en oliën van de toets: (exclusief snaren)"
+                    priceNumber="€ 15,-"></Pricebar>
+            </div>
         </article>
     </section>
 </template>
 <script>
 import Navbar from '/././components/Navbar.vue';
 import Pagetitle from '/././components/Pagetitle.vue';
-export default {
-
-}
+import Pricebar from '/././components/Pricebar.vue';
 </script>
 <style scoped>
 .top-header {
