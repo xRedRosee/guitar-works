@@ -79,10 +79,38 @@ export default {
     }
 }
 
+@media screen and (max-width: 550px) {
+    .banner-img {
+        height: 100%;
+        margin-left: -598px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .banner-img {
+        height: 100%;
+        margin-left: -729px;
+    }
+}
+
 @media screen and (max-width: 380px) {
     .banner-img {
         height: 100%;
         margin-left: -571px;
+    }
+}
+
+@media screen and (max-height: 550px) {
+    .banner-img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .banner-text {
+        position: absolute;
+        top: 30%;
+        font-size: 50px;
     }
 }
 </style>
