@@ -23,6 +23,9 @@ Palissander- of Ebben toets) met binding inclusief afstellen (exclusief snaren)
 " priceNumber="€250,-">
                 </Pricebar>
             </div>
+            <p class="header-text warning-text"> Wij hebben <span class="bold">geen pin</span>; graag contante betaling bij
+                ophalen van
+                uw instrument! </p>
         </article>
     </section>
 </template>
@@ -56,24 +59,37 @@ import Pricebar from '/././components/Pricebar.vue';
 
 .email {
     color: black;
+    font-weight: var(--normalfontmedium);
 }
 
 .email:visited {
     color: black;
+    font-weight: var(--normalfontmedium);
 }
 
 .phone {
     color: black;
+    font-weight: var(--normalfontmedium);
 }
 
 .phone:visited {
     color: black;
+    font-weight: var(--normalfontmedium);
 }
 
 .price-list {
     display: flex;
     flex-direction: column;
     gap: 25px;
+}
+
+.bold {
+    font-weight: var(--normalfontmedium);
+}
+
+.warning-text {
+    width: 90%;
+    text-align: center;
 }
 
 /* -------------------------------------------- media queries */
@@ -88,6 +104,7 @@ import Pricebar from '/././components/Pricebar.vue';
     .header-text {
         font-size: 18px;
         margin-block: 22px;
+        width: 90%;
     }
 }
 </style>

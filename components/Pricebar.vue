@@ -42,4 +42,39 @@ export default {
     font-size: 20px;
     width: 15%;
 }
+
+/* -------------------------------------------- media queries */
+@media screen and (max-width: 1080px) {
+    .pricebar {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .price-item {
+        font-size: 18px;
+        margin: 0;
+        text-align: center;
+        width: 90%;
+    }
+
+    .price-number {
+        font-size: 18px;
+        margin: 0;
+        text-align: center;
+        width: 80%;
+    }
+
+    .pricebar {
+        height: 146px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 11px;
+        box-shadow: 0px 5px 14px -4px rgba(0, 0, 0, 0.27);
+        margin: 0;
+        padding: 0;
+    }
+}
 </style>
