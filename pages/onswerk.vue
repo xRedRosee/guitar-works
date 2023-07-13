@@ -99,8 +99,12 @@
                 </ul>
             </div>
             <div class="glide__controls buttons" data-glide-el="controls">
-                <button class="glide__arrow glide__arrow--left button-left" data-glide-dir="|<">&#8592;</button>
-                <button class="glide__arrow glide__arrow--right button-right" data-glide-dir="|>">&#8594;</button>
+                <button class="glide__arrow glide__arrow--left button-left" data-glide-dir="|<">
+                    <img alt="arrow left" class="arrow-img" src="../assets/arrow-left-red.svg">
+                </button>
+                <button class="glide__arrow glide__arrow--right button-right" data-glide-dir="|>">
+                    <img alt="arrow right" class="arrow-img" src="../assets/arrow-right-red.svg">
+                </button>
             </div>
         </div>
     </section>
@@ -212,28 +216,34 @@ export default {
     margin-left: 90px;
     font-size: 30px;
     background: none;
-    color: var(--red);
+    /* color: var(--red); */
     outline: none;
-    border: solid 2px var(--red);
+    /* border: solid 2px var(--red); */
     border-radius: 50%;
     padding: 0;
     height: 60px;
     width: 60px;
     cursor: pointer;
+    border: none;
 }
 
 .button-right {
     margin-right: 90px;
     font-size: 30px;
     background: none;
-    color: var(--red);
+    /* color: var(--red); */
     outline: none;
-    border: solid 2px var(--red);
+    /* border: solid 2px var(--red); */
     border-radius: 50%;
     padding: 0;
     height: 60px;
     width: 60px;
     cursor: pointer;
+    border: none;
+}
+
+.arrow-img {
+    height: 70px;
 }
 
 
