@@ -41,6 +41,7 @@ import Pricebar from '/././components/Pricebar.vue';
     padding-bottom: 60px;
     -webkit-box-shadow: 0px 14px 22px -9px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 14px 22px -9px rgba(0, 0, 0, 0.1);
+    overflow-x: hidden;
 }
 
 .header-intro-text {
@@ -104,6 +105,10 @@ import Pricebar from '/././components/Pricebar.vue';
     .header-text {
         font-size: 18px;
         margin-block: 22px;
+        width: 90%;
+    }
+
+    .header-intro-text {
         width: 90%;
     }
 }
