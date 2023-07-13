@@ -96,8 +96,12 @@
                 </ul>
             </div>
             <div class="glide__controls buttons" data-glide-el="controls">
-                <button class="glide__arrow glide__arrow--left button-left" data-glide-dir="|<">&#8592;</button>
-                <button class="glide__arrow glide__arrow--right button-right" data-glide-dir="|>">&#8594;</button>
+                <button class="glide__arrow glide__arrow--left button-left" data-glide-dir="|<">
+                    <img alt="arrow left" class="arrow-img" src="../assets/arrow-left-red.svg">
+                </button>
+                <button class="glide__arrow glide__arrow--right button-right" data-glide-dir="|>">
+                    <img alt="arrow right" class="arrow-img" src="../assets/arrow-right-red.svg">
+                </button>
             </div>
         </div>
     </section>
@@ -169,8 +173,71 @@ export default {
     width: 60%;
 }
 
+.beeld-section {
+    margin-top: 20px;
+}
+
+.beeld-slides {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.show-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .show-img {
-    height: 100px;
+    height: 300px;
+}
+
+.buttons {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.button-left {
+    margin: 0;
+    /* margin-left: 90px; */
+    font-size: 30px;
+    background: none;
+    /* color: var(--red); */
+    outline: none;
+    /* border: solid 2px var(--red); */
+    border-radius: 50%;
+    padding: 0;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    border: none;
+}
+
+.button-right {
+    margin: 0;
+    /* margin-right: 90px; */
+    font-size: 30px;
+    background: none;
+    /* color: var(--red); */
+    outline: none;
+    /* border: solid 2px var(--red); */
+    border-radius: 50%;
+    padding: 0;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    border: none;
+}
+
+.arrow-img {
+    height: 70px;
 }
 
 /* -------------------------------------------- media queries */
@@ -186,6 +253,26 @@ export default {
     .header-text {
         font-size: 18px;
         margin-block: 22px;
+    }
+
+    .show-img {
+        width: 70%;
+        height: auto;
+    }
+
+    .buttons {
+        bottom: 0%;
+        top: auto;
+    }
+
+    .show-slide {
+        padding-bottom: 34px;
+    }
+
+    .glide__slides {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 }
@@ -221,6 +308,20 @@ export default {
     .header-text {
         font-size: 18px;
         margin-block: 22px;
+    }
+
+    .show-img {
+        width: 90%;
+        height: auto;
+    }
+
+    .show-slide {
+        padding-bottom: 73px;
+    }
+
+    .glide__slides {
+        justify-content: center;
+        align-items: center;
     }
 }
 

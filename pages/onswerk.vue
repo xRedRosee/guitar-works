@@ -184,6 +184,9 @@ export default {
     margin-top: 40px;
     margin-bottom: 30px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .show-slide {
@@ -208,12 +211,14 @@ export default {
     top: 50%;
     display: flex;
     flex-direction: row;
-    width: 100%;
+    /* width: 100%; */
     justify-content: space-between;
+    width: 90%;
 }
 
 .button-left {
-    margin-left: 90px;
+    margin: 0;
+    /* margin-left: 90px; */
     font-size: 30px;
     background: none;
     /* color: var(--red); */
@@ -228,7 +233,8 @@ export default {
 }
 
 .button-right {
-    margin-right: 90px;
+    margin: 0;
+    /* margin-right: 90px; */
     font-size: 30px;
     background: none;
     /* color: var(--red); */
@@ -331,7 +337,7 @@ export default {
     }
 
     .show-slide {
-        padding-bottom: 30px;
+        padding-bottom: 73px;
     }
 
     .glide__slides {
@@ -353,7 +359,7 @@ export default {
         height: 135px;
     }
 
-    .button-left {
+    /* .button-left {
         margin-left: 90px;
         font-size: 20px;
         background: none;
@@ -379,6 +385,6 @@ export default {
         height: 40px;
         width: 40px;
         cursor: pointer;
-    }
+    } */
 }
 </style>
