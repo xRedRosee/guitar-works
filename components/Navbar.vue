@@ -5,22 +5,22 @@
         </NuxtLink>
         <ul class="nav-list">
             <li class="nav-item">
-                <NuxtLink to="/overons" class="nav-text">over ons</NuxtLink>
+                <NuxtLink to="/overons" class="nav-text">Over ons</NuxtLink>
             </li>
             <li class="nav-item">
-                <NuxtLink to="/onswerk" class="nav-text">ons werk</NuxtLink>
+                <NuxtLink to="/onswerk" class="nav-text">Ons werk</NuxtLink>
             </li>
             <li class="nav-item">
-                <NuxtLink to="/prijzen" class="nav-text">prijzen</NuxtLink>
+                <NuxtLink to="/prijzen" class="nav-text">Prijzen</NuxtLink>
             </li>
             <li class="nav-item">
                 <NuxtLink to="/selectseries" class="nav-text">Select Series</NuxtLink>
             </li>
             <li class="nav-item">
-                <NuxtLink to="/pedalboards" class="nav-text">pedalboards</NuxtLink>
+                <NuxtLink to="/pedalboards" class="nav-text">Pedalboards</NuxtLink>
             </li>
             <li class="nav-item">
-                <NuxtLink to="/contact" class="nav-text">contact</NuxtLink>
+                <NuxtLink to="/contact" class="nav-text">Contact</NuxtLink>
             </li>
         </ul>
         <button class="hamburgermenu" @click="hamburgerMenu">
