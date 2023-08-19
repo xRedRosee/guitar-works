@@ -27,6 +27,7 @@
     </section>
     <section class="beeld-section">
         <Pagetitle pageTitle="Select Series in beeld"></Pagetitle>
+        <p class="beeld-intro"> Deze foto’s geven je een impressie van wat er mogelijk is… </p>
         <div class="glide slide-div beeld-slides">
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
@@ -177,6 +178,15 @@ export default {
     margin-top: 20px;
 }
 
+.beeld-intro {
+    font-family: var(--normalfont);
+    font-weight: var(--normalfontnormal);
+    font-size: 20px;
+    margin: 0;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
 .beeld-slides {
     margin-top: 40px;
     margin-bottom: 30px;
@@ -253,6 +263,10 @@ export default {
     .header-text {
         font-size: 18px;
         margin-block: 22px;
+    }
+
+    .beeld-intro {
+        font-size: 18px;
     }
 
     .show-img {
