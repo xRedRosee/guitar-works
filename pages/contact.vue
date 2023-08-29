@@ -35,12 +35,6 @@ export default {
 }
 </script>
 <style>
-@media screen and (max-width: 1080px) {
-    .header-intro-text {
-        width: 90%;
-    }
-}
-
 .email {
     color: black;
     font-weight: var(--normalfontmedium);
@@ -99,5 +93,28 @@ export default {
 
 .tijd-section {
     width: 50%;
+}
+
+@media screen and (max-width: 1080px) {
+    .header-intro-text {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .adress-section {
+        width: 100%;
+    }
+
+    .tijd-section {
+        width: 100%;
+    }
 }
 </style>
