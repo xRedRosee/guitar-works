@@ -9,9 +9,21 @@
             </p>
             <p class="header-text">
                 Verder zijn wij te vinden op Facebook: <a href="https://www.facebook.com/GuitarworksPanningen"
-                    target="_blank" class="facebook">
-                    https://www.facebook.com/GuitarworksPanningen </a>
+                    target="_blank" class="facebook"> www.facebook.com/GuitarworksPanningen </a>
             </p>
+            <section class="contact-info">
+                <article class="adress-section">
+                    <h1 class="contact-header"> Adres </h1>
+                    <p class="contact-text"> Guitarworks </p>
+                    <p class="contact-text"> Burg. Janssenring 32 </p>
+                    <p class="contact-text"> 5981 DH Panningen</p>
+                </article>
+                <article class="tijd-section">
+                    <h1 class="contact-header"> Openingstijden op afspraak </h1>
+                    <p class="contact-text"> Maandag tot vrijdag </p>
+                    <p class="contact-text"> Tussen 10:00 tot 17:00 </p>
+                </article>
+            </section>
         </article>
     </section>
 </template>
@@ -23,6 +35,12 @@ export default {
 }
 </script>
 <style>
+@media screen and (max-width: 1080px) {
+    .header-intro-text {
+        width: 90%;
+    }
+}
+
 .email {
     color: black;
     font-weight: var(--normalfontmedium);
@@ -46,6 +64,7 @@ export default {
 .facebook {
     color: black;
     font-weight: var(--normalfontmedium);
+    word-wrap: break-word;
 }
 
 .facebook:visited {
