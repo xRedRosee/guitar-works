@@ -337,7 +337,7 @@ export default {
     }
 
     .show-slide {
-        padding-bottom: 73px;
+        padding-bottom: 30px;
     }
 
     .glide__slides {
