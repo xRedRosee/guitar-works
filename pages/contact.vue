@@ -71,4 +71,33 @@ export default {
     color: black;
     font-weight: var(--normalfontmedium);
 }
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.adress-section {
+    width: 50%;
+}
+
+.contact-header {
+    color: black;
+    font-weight: var(--normalfontmedium);
+    font-family: var(--normalfont);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-text {
+    color: black;
+    font-family: var(--normalfont);
+    font-size: 20px;
+    margin-block: 10px;
+}
+
+.tijd-section {
+    width: 50%;
+}
 </style>
