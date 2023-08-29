@@ -25,6 +25,9 @@
                 </article>
             </section>
         </article>
+        <a href="https://goo.gl/maps/CaK8b7hmsjir1UGq5" class="map-link" target="_blank">
+            <img src="../assets/Guitarworks-map.jpg" alt="guitarworks map" class="map-img">
+        </a>
     </section>
 </template>
 <script>
@@ -95,9 +98,24 @@ export default {
     width: 50%;
 }
 
+.map-link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.map-img {
+    margin-top: 60px;
+    width: 65%;
+}
+
 @media screen and (max-width: 1080px) {
     .header-intro-text {
         width: 90%;
+    }
+
+    .map-img {
+        width: 80%;
     }
 }
 
@@ -115,6 +133,10 @@ export default {
 
     .tijd-section {
         width: 100%;
+    }
+
+    .map-img {
+        width: 90%;
     }
 }
 </style>
