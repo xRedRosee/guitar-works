@@ -18,6 +18,31 @@ export default {
     font-weight: var(--headingfontweight);
     margin: 0;
     margin-left: 40px;
+    animation: 0.5s ease-out fadeIn;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        margin-left: -100px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 40px;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+        margin-left: -100px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 40px;
+    }
 }
 
 @media screen and (max-width: 680px) {

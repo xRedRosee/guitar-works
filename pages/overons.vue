@@ -31,6 +31,7 @@
 <script>
 import Navbar from '/././components/Navbar.vue';
 import Pagetitle from '/././components/Pagetitle.vue';
+
 export default {
     components: { Pagetitle }
 }
@@ -68,6 +69,27 @@ export default {
     font-weight: var(--normalfontnormal);
     font-size: 20px;
     margin-block: 30px;
+    animation: 1s ease-out opacityChange;
+}
+
+@keyframes opacityChange {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes opacityChange {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .img-side {
@@ -78,6 +100,31 @@ export default {
 
 .header-img {
     width: 60%;
+    animation: 0.5s ease-out slideInRight;
+}
+
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        margin-right: -100px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-right: 0;
+    }
+}
+
+@-webkit-keyframes slideInRight {
+    0% {
+        opacity: 0;
+        margin-right: -100px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-right: 0;
+    }
 }
 
 .bottom-banner {

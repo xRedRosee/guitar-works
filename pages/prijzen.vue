@@ -33,6 +33,7 @@ Palissander- of Ebben toets) met binding inclusief afstellen (exclusief snaren)
 import Navbar from '/././components/Navbar.vue';
 import Pagetitle from '/././components/Pagetitle.vue';
 import Pricebar from '/././components/Pricebar.vue';
+
 </script>
 <style scoped>
 .top-header {
@@ -56,6 +57,27 @@ import Pricebar from '/././components/Pricebar.vue';
     font-size: 20px;
     margin-block: 30px;
     width: 60%;
+    animation: 1s ease-out opacityChange;
+}
+
+@keyframes opacityChange {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes opacityChange {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .email {
