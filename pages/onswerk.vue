@@ -113,6 +113,7 @@
 import Glide from '@glidejs/glide'
 import Navbar from '/././components/Navbar.vue';
 import Pagetitle from '/././components/Pagetitle.vue';
+
 export default {
     mounted() {
         new Glide('.glide', {

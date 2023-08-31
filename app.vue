@@ -6,7 +6,11 @@
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
+  <Copyright></Copyright>
 </template>
+<script setup>
+import Copyright from '/././components/Copyright.vue';
+</script>
 <style>
 @import url("https://use.typekit.net/psc6wfy.css");
 
