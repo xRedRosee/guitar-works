@@ -77,6 +77,31 @@ export default {
 
 .adress-section {
     width: 50%;
+    animation: 0.5s ease-out slide;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        margin-left: -50px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 0;
+    }
+}
+
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        margin-left: -50px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 0;
+    }
 }
 
 .contact-header {
@@ -96,6 +121,31 @@ export default {
 
 .tijd-section {
     width: 50%;
+    animation: 0.5s ease-out slideIn;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        margin-right: -50px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-right: 0;
+    }
+}
+
+@-webkit-keyframes slideIn {
+    0% {
+        opacity: 0;
+        margin-right: -50px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-right: 0;
+    }
 }
 
 .map-link {

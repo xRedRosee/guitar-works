@@ -27,6 +27,31 @@ export default {
     gap: 20px;
     -webkit-box-shadow: 0px 5px 14px -4px rgba(0, 0, 0, 0.27);
     box-shadow: 0px 5px 14px -4px rgba(0, 0, 0, 0.27);
+    animation: 0.5s ease-out slide;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        margin-left: -50px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 0;
+    }
+}
+
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        margin-left: -50px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 0;
+    }
 }
 
 .price-item {

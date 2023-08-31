@@ -57,6 +57,31 @@ export default {
     margin-left: 50px;
     text-shadow: 2px 2px 8px var(--black);
     margin-block: 0;
+    animation: 0.5s ease-out slideDown;
+}
+
+@keyframes slideDown {
+    0% {
+        margin-top: -100px;
+        opacity: 0;
+    }
+
+    100% {
+        margin-top: 0;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes slideDown {
+    0% {
+        margin-top: -100px;
+        opacity: 0;
+    }
+
+    100% {
+        margin-top: 0;
+        opacity: 1;
+    }
 }
 
 .line {
