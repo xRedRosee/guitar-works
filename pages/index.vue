@@ -2,7 +2,9 @@
     <Navbar></Navbar>
     <section class="guitar-banner">
         <div class="guitar-img">
-            <img src="../assets/banner.JPG" alt="guitar banner" class="banner-img">
+            <img src="../assets/banner2.JPG" alt="guitar banner" class="banner-img">
+            <img src="../assets/banner.JPG" alt="guitar banner" class="banner-img-small">
+            <div class="line"></div>
             <h1 class="banner-text"> Guitarworks <br> Guitar Repair & Customizing Panningen</h1>
         </div>
     </section>
@@ -23,17 +25,28 @@ export default {
 .guitar-img {
     position: relative;
     overflow: hidden;
-    height: 115%;
+    /* height: 115%; */
 }
 
 .banner-img {
-    /* width: 100%; */
+    width: 100%;
+    height: auto;
+    /* height: 100%; */
+    margin-top: 20px;
+}
+
+.banner-img-small {
+    margin: 0;
     height: 100%;
+    width: auto;
+    transform: rotate(270deg);
+    margin-top: 20px;
+    display: none;
 }
 
 .banner-text {
     position: absolute;
-    top: 45%;
+    top: 50%;
     border-left: 8px solid var(--red);
     padding-left: 20px;
     font-size: 70px;
@@ -46,9 +59,18 @@ export default {
     margin-block: 0;
 }
 
+.line {
+    position: absolute;
+    height: 8px;
+    background-color: var(--red);
+    width: 40%;
+    top: 5%;
+    right: 30px
+}
+
 /* -------------------------------------------- media queries */
 @media screen and (max-width: 1010px) {
-    .guitar-img {
+    /* .guitar-img {
         height: 100%;
     }
 
@@ -62,29 +84,77 @@ export default {
         position: absolute;
         top: 50%;
         font-size: 50px;
-    }
-}
+    } */
 
-@media screen and (max-width: 768px) {
-    .banner-img {
+    .guitar-img {
+        position: relative;
+        overflow: hidden;
         height: 100%;
-        margin-left: -729px;
+    }
+
+    .banner-img {
+        display: none;
+    }
+
+    .banner-img-small {
+        display: block;
     }
 
     .banner-text {
         position: absolute;
         top: 70%;
+        font-size: 50px;
+        margin-left: 21px;
+    }
+
+    .guitar-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .line {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner-img {
+        display: none;
+    }
+
+    .banner-img-small {
+        display: block;
+    }
+
+    .banner-text {
+        position: absolute;
+        top: 70%;
+        font-size: 50px;
+        margin-left: 21px;
+    }
+
+    .guitar-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .line {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .banner-text {
+        position: absolute;
+        top: 50%;
         font-size: 30px;
         margin-left: 21px;
     }
 }
 
-@media screen and (max-width: 550px) {
-    .banner-img {
-        height: 100%;
-        margin-left: -598px;
-    }
-}
+/*
 
 @media screen and (max-width: 420px) {
     .banner-img {
@@ -112,5 +182,5 @@ export default {
         top: 30%;
         font-size: 50px;
     }
-}
+} */
 </style>
