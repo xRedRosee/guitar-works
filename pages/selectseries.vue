@@ -107,11 +107,13 @@
     </section>
 </template>
 <script>
-import Glide from '@glidejs/glide';
+import Glide from '@glidejs/glide'
 import Navbar from '/././components/Navbar.vue';
 import Pagetitle from '/././components/Pagetitle.vue';
+import { reloadNuxtApp } from 'nuxt/app';
 export default {
     mounted() {
+        reloadNuxtApp();
         new Glide('.glide', {
             type: 'carousel',
             animationDuration: 2000,
@@ -273,6 +275,9 @@ export default {
     width: 60px;
     cursor: pointer;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button-right {
@@ -289,6 +294,10 @@ export default {
     width: 60px;
     cursor: pointer;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .arrow-img {
@@ -332,6 +341,10 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .beeld-section {
+        padding-block: 20px;
     }
 
 }
@@ -379,6 +392,22 @@ export default {
     }
 
     .glide__slides {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .beeld-section {
+        padding-block: 20px;
+    }
+
+    .button-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-right {
+        display: flex;
         justify-content: center;
         align-items: center;
     }

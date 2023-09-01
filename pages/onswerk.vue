@@ -112,9 +112,10 @@
 import Glide from '@glidejs/glide'
 import Navbar from '/././components/Navbar.vue';
 import Pagetitle from '/././components/Pagetitle.vue';
-
+import { reloadNuxtApp } from 'nuxt/app';
 export default {
     mounted() {
+        reloadNuxtApp();
         new Glide('.glide', {
             type: 'carousel',
             animationDuration: 2000,
