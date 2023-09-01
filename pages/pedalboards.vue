@@ -244,6 +244,9 @@ export default {
     width: 60px;
     cursor: pointer;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button-right {
@@ -260,6 +263,9 @@ export default {
     width: 60px;
     cursor: pointer;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .arrow-img {
