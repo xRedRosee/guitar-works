@@ -21,7 +21,7 @@
                 </article>
             </div>
             <div class="img-side">
-                <img class="header-img" alt="select series foto" src="../assets/Select Series parts....JPG">
+                <img class="header-img" alt="select series foto" src="../assets/SelectSeries/SelectSeriesparts.JPG">
             </div>
         </div>
     </section>
@@ -32,63 +32,62 @@
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
                     <li class="glide__slide show-slide">
-                        <img src="../assets/SelectSeries/Select Series .jpeg" alt="select series guitar" class="show-img">
+                        <img src="../assets/SelectSeries/SelectSeries.jpeg" alt="select series guitar" class="show-img">
                     </li>
                     <li class="glide__slide show-slide">
-                        <img src="../assets/SelectSeries/Select Series 11.jpeg" alt="select series guitar" class="show-img">
+                        <img src="../assets/SelectSeries/SelectSeries11.jpeg" alt="select series guitar" class="show-img">
                     </li>
                     <li class="glide__slide show-slide">
-                        <img src="../assets/SelectSeries/Select Series 14.JPG" alt="select series guitar" class="show-img">
+                        <img src="../assets/SelectSeries/SelectSeries14.JPG" alt="select series guitar" class="show-img">
                     </li>
                     <li class="glide__slide show-slide">
-                        <img src="../assets/SelectSeries/Select Series 33.jpeg" alt="select series guitar" class="show-img">
+                        <img src="../assets/SelectSeries/SelectSeries33.jpeg" alt="select series guitar" class="show-img">
                     </li>
                     <li class="glide__slide show-slide">
-                        <img src="../assets/SelectSeries/Select Series 35.jpeg" alt="select series guitar" class="show-img">
+                        <img src="../assets/SelectSeries/SelectSeries35.jpeg" alt="select series guitar" class="show-img">
                     </li>
                     <li class="glide__slide show-slide">
-                        <img src="../assets/SelectSeries/Select Series 42.jpeg" alt="select series guitar" class="show-img">
+                        <img src="../assets/SelectSeries/SelectSeries42.jpeg" alt="select series guitar" class="show-img">
                     </li>
                     <li class="glide__slide show-slide">
-                        <img src="../assets/SelectSeries/Select Series 46.jpeg" alt="select series guitar" class="show-img">
+                        <img src="../assets/SelectSeries/SelectSeries46.jpeg" alt="select series guitar" class="show-img">
                     </li>
                     <li class="glide__slide show-slide">
-                        <img src="../assets/SelectSeries/Select Series 47.jpeg" alt="select series guitar" class="show-img">
+                        <img src="../assets/SelectSeries/SelectSeries47.jpeg" alt="select series guitar" class="show-img">
                     </li>
                     <li class="glide__slide show-slide">
-                        <img src="../assets/SelectSeries/Select Series 48.jpeg" alt="select series guitar" class="show-img">
+                        <img src="../assets/SelectSeries/SelectSeries48.jpeg" alt="select series guitar" class="show-img">
                     </li>
                     <li class="glide__slide show-slide">
-                        <img src="../assets/SelectSeries/Select Series 49.jpeg" alt="select series guitar" class="show-img">
+                        <img src="../assets/SelectSeries/SelectSeries49.jpeg" alt="select series guitar" class="show-img">
                     </li>
                     <li class="glide__slide show-slide">
-                        <img src="../assets/SelectSeries/Select Series 51-2.jpeg" alt="select series guitar"
-                            class="show-img">
+                        <img src="../assets/SelectSeries/SelectSeries51-2.jpeg" alt="select series guitar" class="show-img">
                     </li>
                     <li class="glide__slide show-slide">
-                        <img src="../assets/SelectSeries/Select Series 52.jpeg" alt="select series guitar" class="show-img">
+                        <img src="../assets/SelectSeries/SelectSeries52.jpeg" alt="select series guitar" class="show-img">
                     </li>
                     <li class="glide__slide show-slide">
-                        <img src="../assets/SelectSeries/Select Series 53.jpg" alt="select series guitar" class="show-img">
+                        <img src="../assets/SelectSeries/SelectSeries53.jpg" alt="select series guitar" class="show-img">
                     </li>
                     <li class="glide__slide show-slide">
-                        <img src="../assets/SelectSeries/Select Series 54.jpeg" alt="select series guitar" class="show-img">
+                        <img src="../assets/SelectSeries/SelectSeries54.jpeg" alt="select series guitar" class="show-img">
                     </li>
                     <li class="glide__slide show-slide">
-                        <img src="../assets/SelectSeries/Select Series 55.jpeg" alt="select series guitar" class="show-img">
+                        <img src="../assets/SelectSeries/SelectSeries55.jpeg" alt="select series guitar" class="show-img">
                     </li>
                     <li class="glide__slide show-slide">
-                        <img src="../assets/SelectSeries/Select Series 57.jpeg" alt="select series guitar" class="show-img">
+                        <img src="../assets/SelectSeries/SelectSeries57.jpeg" alt="select series guitar" class="show-img">
                     </li>
                     <li class="glide__slide show-slide">
-                        <img src="../assets/SelectSeries/Select Series 58.jpeg" alt="select series guitar" class="show-img">
+                        <img src="../assets/SelectSeries/SelectSeries58.jpeg" alt="select series guitar" class="show-img">
                     </li>
                     <li class="glide__slide show-slide">
-                        <img src="../assets/SelectSeries/Select Series Privat Collection Corona Green.jpeg"
+                        <img src="../assets/SelectSeries/SelectSeriesPrivatCollectionCoronaGreen.jpeg"
                             alt="select series guitar" class="show-img">
                     </li>
                     <li class="glide__slide show-slide">
-                        <img src="../assets/SelectSeries/Select Series Proto.jpeg" alt="select series guitar"
+                        <img src="../assets/SelectSeries/SelectSeriesProto.jpeg" alt="select series guitar"
                             class="show-img">
                     </li>
                     <li class="glide__slide show-slide">

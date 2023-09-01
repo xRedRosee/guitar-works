@@ -29,71 +29,71 @@
                 <ul class="glide__slides">
                     <li class="glide__slide show-slide">
                         <img alt="werk in beeld foto" class="show-img alt-img"
-                            src="../assets/Onswerk/Afstellen en intoneren van een basgitaar....JPG">
+                            src="../assets/Onswerk/Afstellen-en-intoneren-van-een-basgitaar.JPG">
                         <p class="show-text">Afstellen en intoneren van een basgitaar </p>
                     </li>
                     <li class="glide__slide show-slide">
                         <img alt="werk in beeld foto" class="show-img"
-                            src="../assets/Onswerk/Brug lijmen van western gitaar... (m.b.v. onze specialisten...).JPG">
+                            src="../assets/Onswerk/Brug-lijmen-van-western-gitaar-mbv-onze-specialisten.JPG">
                         <p class="show-text">Brug lijmen van western gitaar (m.b.v. onze specialisten) </p>
                     </li>
                     <li class="glide__slide show-slide">
                         <img alt="werk in beeld foto" class="show-img"
-                            src="../assets/Onswerk/Custom schakelingen in de electronica aanbrengen....JPG">
+                            src="../assets/Onswerk/Custom-schakelingen-in-de-electronica-aanbrengen.JPG">
                         <p class="show-text">Custom schakelingen in de electronica aanbrengen </p>
                     </li>
                     <li class="glide__slide show-slide">
                         <img alt="werk in beeld foto" class="show-img"
-                            src="../assets/Onswerk/Afstellen en intoneren met nieuwe snaren van een electrische gitaar....jpg">
+                            src="../assets/Onswerk/Afstellen-en-intoneren-met-nieuwe-snaren-van-een-electrische-gitaar.jpg">
                         <p class="show-text">Afstellen en intoneren met nieuwe snaren van een electrische gitaar </p>
                     </li>
                     <li class="glide__slide show-slide">
                         <img alt="werk in beeld foto" class="show-img alt-img"
-                            src="../assets/Onswerk/Fretten vlakken en profileren van een klassieke gitaar....JPG">
+                            src="../assets/Onswerk/Fretten-vlakken-en-profileren-van-een-klassieke-gitaar.JPG">
                         <p class="show-text">Fretten vlakken en profileren van een klassieke gitaar </p>
                     </li>
                     <li class="glide__slide show-slide">
                         <img alt="werk in beeld foto" class="show-img alt-img"
-                            src="../assets/Onswerk/Herfretten van een hals....jpeg">
+                            src="../assets/Onswerk/Herfretten-van-een-hals.jpeg">
                         <p class="show-text">Herfretten van een hals </p>
                     </li>
                     <li class="glide__slide show-slide">
                         <img alt="werk in beeld foto" class="show-img"
-                            src="../assets/Onswerk/Het aanbrengen van shielding voor minder ruis en brom in de electronica....JPG">
+                            src="../assets/Onswerk/Het-aanbrengen-van-shielding-voor-minder-ruis-en-brom-in-de-electronica.JPG">
                         <p class="show-text">Het aanbrengen van shielding voor minder ruis en brom in de electronica</p>
                     </li>
                     <li class="glide__slide show-slide">
                         <img alt="werk in beeld foto" class="show-img"
-                            src="../assets/Onswerk/Lijmen van een gebroken headstock van een klassieke gitaar....JPG">
+                            src="../assets/Onswerk/Lijmen-van-een-gebroken-headstock-van-een-klassieke-gitaar.JPG">
                         <p class="show-text">Lijmen van een gebroken headstock van een klassieke gitaar</p>
                     </li>
                     <li class="glide__slide show-slide">
                         <img alt="werk in beeld foto" class="show-img"
-                            src="../assets/Onswerk/Lijmen van een losse brug bij klassieke gitaar....JPG">
+                            src="../assets/Onswerk/Lijmen-van-een-losse-brug-bij-klassieke-gitaar.JPG">
                         <p class="show-text">Lijmen van een losse brug bij klassieke gitaar</p>
                     </li>
                     <li class="glide__slide show-slide">
                         <img alt="werk in beeld foto" class="show-img"
-                            src="../assets/Onswerk/Monteren van een preamp systeem in een western gitaar....jpeg">
+                            src="../assets/Onswerk/Monteren-van-een-preamp-systeem-in-een-western-gitaar.jpeg">
                         <p class="show-text">Monteren van een preamp systeem in een western gitaar</p>
                     </li>
                     <li class="glide__slide show-slide">
                         <img alt="werk in beeld foto" class="show-img"
-                            src="../assets/Onswerk/Rewiring van de electronica met nieuwe potmeters....jpeg">
+                            src="../assets/Onswerk/Rewiring-van-de-electronica-met-nieuwe-potmeters.jpeg">
                         <p class="show-text">Rewiring van de electronica met nieuwe potmeters</p>
                     </li>
                     <li class="glide__slide show-slide">
                         <img alt="werk in beeld foto" class="show-img"
-                            src="../assets/Onswerk/Versleten potmeters vervangen....jpeg">
+                            src="../assets/Onswerk/Versleten-potmeters-vervangen.jpeg">
                         <p class="show-text">Versleten potmeters vervangen</p>
                     </li>
                     <li class="glide__slide show-slide">
-                        <img alt="werk in beeld foto" class="show-img" src="../assets/Onswerk/Vervangen van pickups....JPG">
+                        <img alt="werk in beeld foto" class="show-img" src="../assets/Onswerk/Vervangen-van-pickups.JPG">
                         <p class="show-text">Vervangen van pickups</p>
                     </li>
                     <li class="glide__slide show-slide">
                         <img alt="werk in beeld foto" class="show-img"
-                            src="../assets/Onswerk/Vlakken en profileren van zgn ''Deadspots'' in het fretwerk....JPG">
+                            src="../assets/Onswerk/Vlakken-en-profileren-van-zgn-Deadspots-in-het-fretwerk.JPG">
                         <p class="show-text">Vlakken en profileren van zgn ''Deadspots'' in het fretwerk</p>
                     </li>
                 </ul>
