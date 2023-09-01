@@ -2,8 +2,8 @@
     <Navbar></Navbar>
     <section class="guitar-banner">
         <div class="guitar-img">
-            <img src="../assets/banner2.JPG" alt="guitar banner" class="banner-img">
-            <img src="../assets/banner.JPG" alt="guitar banner" class="banner-img-small">
+            <img src="../assets/banner2.jpg" alt="guitar banner" class="banner-img">
+            <img src="../assets/banner.jpg" alt="guitar banner" class="banner-img-small">
             <div class="line"></div>
             <h1 class="banner-text"> Guitarworks <br> Guitar Repair & Customizing Panningen</h1>
         </div>

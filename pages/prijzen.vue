@@ -29,12 +29,15 @@ Palissander- of Ebben toets) met binding inclusief afstellen (exclusief snaren)
         </article>
     </section>
 </template>
+
 <script>
 import Navbar from '/././components/Navbar.vue';
 import Pagetitle from '/././components/Pagetitle.vue';
 import Pricebar from '/././components/Pricebar.vue';
 
+export default {}
 </script>
+
 <style scoped>
 .top-header {
     background-color: var(--lightgrey);

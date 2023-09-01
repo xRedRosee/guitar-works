@@ -21,7 +21,7 @@
                 </article>
             </div>
             <div class="img-side">
-                <img class="header-img" alt="select series foto" src="../assets/SelectSeries/SelectSeriesparts.JPG">
+                <img class="header-img" alt="select series foto" src="../assets/SelectSeries/SelectSeriesparts.jpg">
             </div>
         </div>
     </section>
@@ -38,7 +38,7 @@
                         <img src="../assets/SelectSeries/SelectSeries11.jpeg" alt="select series guitar" class="show-img">
                     </li>
                     <li class="glide__slide show-slide">
-                        <img src="../assets/SelectSeries/SelectSeries14.JPG" alt="select series guitar" class="show-img">
+                        <img src="../assets/SelectSeries/SelectSeries14.jpg" alt="select series guitar" class="show-img">
                     </li>
                     <li class="glide__slide show-slide">
                         <img src="../assets/SelectSeries/SelectSeries33.jpeg" alt="select series guitar" class="show-img">
@@ -107,11 +107,11 @@
     </section>
 </template>
 <script>
-import Glide from '@glidejs/glide'
+import Glide from '@glidejs/glide';
 import Navbar from '/././components/Navbar.vue';
 import Pagetitle from '/././components/Pagetitle.vue';
 export default {
-    mounted() {
+    beforeMount() {
         new Glide('.glide', {
             type: 'carousel',
             animationDuration: 2000,

@@ -57,10 +57,10 @@
                         <img src="../assets/Pedalboards/pedalboard8.jpeg" alt="pedal board" class="show-img">
                     </li>
                     <li class="glide__slide show-slide">
-                        <img src="../assets/Pedalboards/pedalboard9.JPG" alt="pedal board" class="show-img">
+                        <img src="../assets/Pedalboards/pedalboard9.jpg" alt="pedal board" class="show-img">
                     </li>
                     <li class="glide__slide show-slide">
-                        <img src="../assets/Pedalboards/Multi-Snake-op-maat.JPG" alt="pedal board" class="show-img">
+                        <img src="../assets/Pedalboards/Multi-Snake-op-maat.jpg" alt="pedal board" class="show-img">
                     </li>
                 </ul>
             </div>
