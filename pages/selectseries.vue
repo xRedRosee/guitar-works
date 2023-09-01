@@ -127,7 +127,7 @@ export default {
     },
 }
 </script>
-<style>
+<style scoped>
 @import '@glidejs/glide/dist/css/glide.core.min.css';
 
 .top-header {
@@ -384,6 +384,4 @@ export default {
         align-items: center;
     }
 }
-
-@media screen and (max-width: 300px) {}
 </style>

@@ -95,6 +95,261 @@ export default {
     },
 }
 </script>
-<style>
+<style scoped>
 @import '@glidejs/glide/dist/css/glide.core.min.css';
+
+.top-header {
+    background-color: var(--lightgrey);
+    padding-top: 20px;
+    padding-bottom: 60px;
+    -webkit-box-shadow: 0px 14px 22px -9px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 14px 22px -9px rgba(0, 0, 0, 0.1);
+}
+
+.header-info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-side {
+    width: 50%;
+}
+
+.header-intro-text {
+    width: 80%;
+    border-left: 5px solid var(--red);
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.header-text {
+    font-family: var(--normalfont);
+    font-weight: var(--normalfontnormal);
+    font-size: 20px;
+    margin-block: 30px;
+    animation: 1s ease-out opacityChange;
+}
+
+@keyframes opacityChange {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes opacityChange {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.img-side {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-img {
+    width: 60%;
+    animation: 0.5s ease-out slideInRight;
+}
+
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        margin-right: -100px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-right: 0;
+    }
+}
+
+@-webkit-keyframes slideInRight {
+    0% {
+        opacity: 0;
+        margin-right: -100px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-right: 0;
+    }
+}
+
+.beeld-section {
+    margin-top: 20px;
+}
+
+.beeld-intro {
+    font-family: var(--normalfont);
+    font-weight: var(--normalfontnormal);
+    font-size: 20px;
+    margin: 0;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.beeld-slides {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.show-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.show-img {
+    height: 300px;
+}
+
+.buttons {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.button-left {
+    margin: 0;
+    /* margin-left: 90px; */
+    font-size: 30px;
+    background: none;
+    /* color: var(--red); */
+    outline: none;
+    /* border: solid 2px var(--red); */
+    border-radius: 50%;
+    padding: 0;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    border: none;
+}
+
+.button-right {
+    margin: 0;
+    /* margin-right: 90px; */
+    font-size: 30px;
+    background: none;
+    /* color: var(--red); */
+    outline: none;
+    /* border: solid 2px var(--red); */
+    border-radius: 50%;
+    padding: 0;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    border: none;
+}
+
+.arrow-img {
+    height: 70px;
+}
+
+/* -------------------------------------------- media queries */
+@media screen and (max-width: 1080px) {
+    .header-img {
+        width: 80%;
+    }
+
+    .header-intro-text {
+        width: 90%;
+    }
+
+    .header-text {
+        font-size: 18px;
+        margin-block: 22px;
+    }
+
+    .beeld-intro {
+        font-size: 18px;
+    }
+
+    .show-img {
+        width: 70%;
+        height: auto;
+    }
+
+    .buttons {
+        bottom: 0%;
+        top: auto;
+    }
+
+    .show-slide {
+        padding-bottom: 34px;
+    }
+
+    .glide__slides {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+    .header-info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .text-side {
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .header-intro-text {
+        width: 100%;
+        margin-left: 0;
+        border-left: 4px solid var(--red);
+    }
+
+    .img-side {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-text {
+        font-size: 18px;
+        margin-block: 22px;
+    }
+
+    .show-img {
+        width: 90%;
+        height: auto;
+    }
+
+    .show-slide {
+        padding-bottom: 73px;
+    }
+
+    .glide__slides {
+        justify-content: center;
+        align-items: center;
+    }
+}
 </style>

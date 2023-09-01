@@ -37,7 +37,50 @@ export default {
 
 }
 </script>
-<style>
+<style scoped>
+.top-header {
+    background-color: var(--lightgrey);
+    padding-top: 20px;
+    padding-bottom: 60px;
+    -webkit-box-shadow: 0px 14px 22px -9px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 14px 22px -9px rgba(0, 0, 0, 0.1);
+}
+
+.header-intro-text {
+    width: 80%;
+    border-left: 5px solid var(--red);
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.header-text {
+    font-family: var(--normalfont);
+    font-weight: var(--normalfontnormal);
+    font-size: 20px;
+    margin-block: 30px;
+    animation: 1s ease-out opacityChange;
+}
+
+@keyframes opacityChange {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes opacityChange {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .email {
     color: black;
     font-weight: var(--normalfontmedium);
