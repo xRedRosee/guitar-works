@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar">
         <NuxtLink to="/" class="nav-name">
-            <img src="gw-logo.png" alt="guitarworks logo" class="logo">
+            <img src="../assets/gw-logo.png" alt="guitarworks logo" class="logo">
         </NuxtLink>
         <ul class="nav-list">
             <li class="nav-item">
