@@ -1,4 +1,5 @@
 <template>
+    <Loading></Loading>
     <Navbar></Navbar>
     <section class="top-header">
         <Pagetitle pageTitle="Ons werk"></Pagetitle>
@@ -113,6 +114,8 @@ import Glide from '@glidejs/glide'
 import Navbar from '/././components/Navbar.vue';
 import Pagetitle from '/././components/Pagetitle.vue';
 import { reloadNuxtApp } from 'nuxt/app';
+import Loading from '/././components/Loading.vue';
+
 export default {
     mounted() {
         reloadNuxtApp();

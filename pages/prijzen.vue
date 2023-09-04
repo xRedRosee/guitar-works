@@ -1,4 +1,5 @@
 <template>
+    <Loading></Loading>
     <Navbar></Navbar>
     <section class="top-header">
         <Pagetitle pageTitle="Prijzen"></Pagetitle>
@@ -34,6 +35,7 @@ Palissander- of Ebben toets) met binding inclusief afstellen (exclusief snaren)
 import Navbar from '/././components/Navbar.vue';
 import Pagetitle from '/././components/Pagetitle.vue';
 import Pricebar from '/././components/Pricebar.vue';
+import Loading from '/././components/Loading.vue';
 
 export default {}
 </script>
